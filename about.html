@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+        
+    <!----------navbar--------------->
+    <nav>
+        <img src="image/logo.svg" alt="">
+        <div class="navigation">
+            <ul id="navbar">
+                <i id="close" class="fas fa-times"></i>
+                <li><a  href="index.html">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="image/menu.png" alt="">
+        </div>
+    </nav>
+
+
+    <!---------------home-------------------->
+    <section id="about-home">
+        <h2>About TechEduca/</h2>
+        </div>
+    </section>
+    <section id="about-container">
+        <div class="about-img">
+            <img src="image/a.png" alt="">
+        </div>
+        <div class="about-text">
+            <h2> Welcome to TechEduca, Enhance your skills with best online courses</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Lorem ipsum dolor sit amet. Pariatur repudiandae maxime maiores odio ipsum impedit.</p>
+            <div class="about-fe">
+                <img src="image/fe1.png" alt="">
+                <div class="fe-text">
+                    <h5>300+ Courses</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                         Voluptate dicta mollitia cupiditate.</p>
+                </div>
+            </div>
+            <div class="about-fe">
+                <img src="image/fe2.png" alt="">
+                <div class="fe-text">
+                    <h5>Todays Courses</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                         Voluptate dicta mollitia cupiditate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="feature">
+        <h1>Awesome feature</h1>
+        <p>Replenish man have thing Lorem ipsum dolor sit. Lorem, ipsum dolor.</p>
+
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Scholarship Facility</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, facilis dolorem!</p>
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-certificate"></i>
+                <h3>Python Online Courses</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, facilis dolorem!</p>
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-award"></i>
+                <h3>Global Certification</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, facilis dolorem!</p>
+            </div>
+        </div>
+    </section>
+
+<!-- --------------------Trust-------------------- -->
+<section id="trust">
+    <h1>Trusted By</h1>
+    <p>Replenish man have thing Lorem ipsum dolor sit. Lorem, ipsum dolor.</p>
+    <div class="trust-img">
+        <img src="image/trust (1).png" alt="">
+        <img src="image/trust (2).png" alt="">
+        <img src="image/trust (3).png" alt="">
+        <img src="image/trust (4).png" alt="">
+        <img src="image/trust (5).png" alt="">
+        <img src="image/trust (6).png" alt="">
+    </div>
+</section>
+
+    <!-- ---------------footer----------------------- -->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Invester Relation</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. we only send special offers, </p>
+            <div class="subscribe">
+                <input type="#" placeholder="Your Email address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright 02023 All right reserved | Template is made by Vishnu Singh Rajput</p>
+            <div class="pro-links">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const menu = document.getElementById('menu-btn');
+        const close = document.getElementById('close');
+        const nav = document.getElementById('navbar');
+  
+        menu.addEventListener('click' , ()=>{
+          nav.classList.add('active');
+        })
+        close.addEventListener('click', ()=>{
+          nav.classList.remove('active');
+        })
+      </script>
+</body>
+</html>
